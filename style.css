@@ -1,0 +1,129 @@
+#MainScreen{
+  background-image: url('Scenary2.jpg');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+
+.WorkCited{
+  text-indent: -36px;
+  padding-left: 36px;
+}
+#reflection3Text{
+  opacity: 0;
+  border-radius: 25px;
+  background: rgb(27, 163, 45);
+  padding: 20px;
+  width: 25%;
+  border: 5px solid black;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3 ease-in-out;
+}
+#reflection3Text.fade{
+  opacity: 1;
+}
+#reflection1Text{
+  opacity: 0;
+  border-radius: 25px;
+  background: rgb(27, 163, 45);
+  padding: 20px;
+  width: 25%;
+  border: 5px solid black;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3 ease-in-out;
+}
+#reflection1Text.fade{
+  opacity: 1;
+}
+#reflection2Text{
+  opacity: 0;
+  border-radius: 25px;
+  background: rgb(27, 163, 45);
+  padding: 20px;
+  width: 25%;
+  border: 5px solid black;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3 ease-in-out;
+}
+#reflection2Text.fade{
+  opacity: 1;
+}
+
+#ReflectionsContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+
+#unitReflection{
+  opacity: 0;
+  border-radius: 25px;
+  background: rgb(27, 163, 45);
+  padding: 20px;
+  width: 25%;
+  border: 5px solid black;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3 ease-in-out;
+}
+
+#unitReflection.fade{
+  opacity: 1;
+}
+
+h1{
+  position: relative;
+  text-align: center;
+}
+button{
+  
+  position: relative;
+  background-color: rgb(27, 163, 45);
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: 3px solid black;
+  height: 80px;
+  width: 160px;
+  font-size: large;
+  
+}
+button:active{
+  position: relative;
+  box-shadow: 2px 2px rgb(22, 134, 46);
+  background-color: rgb(22, 134, 46);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 5px;
+  transform: translate(2px,2px)
+}
+button:hover{
+  opacity: 85%;
+}
+.topbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+p{
+ 
+  font-size: larger;
+  text-indent: 50px;
+}
+
+
+
+
+
